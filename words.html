@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Words</title>
+  <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Our Words</h1>
+  <form id="wordForm">
+    <input type="text" id="word" placeholder="Word" required />
+    <input type="text" id="meaning" placeholder="Meaning" required />
+    <input type="text" id="example" placeholder="Example (optional)" />
+    <button type="submit">Add Word</button>
+  </form>
+  <ul id="wordList"></ul>
+</body>
+</html>

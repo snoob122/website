@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Yourself</title>
+  <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Test Mode</h1>
+  <select id="testLength">
+    <option value="10">Mini (10)</option>
+    <option value="25">Standard (25)</option>
+    <option value="50">Long (50)</option>
+  </select>
+  <button onclick="startTest()">Start</button>
+  <div id="quizContainer"></div>
+</body>
+</html>
